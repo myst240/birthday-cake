@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Birthday Cake</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cake">
+    <!-- Top Layer -->
+    <div class="cake-layer top">
+      <div class="icing top-icing">
+        <span class="sprinkle red" style="top: 5px; left: 10px; animation-delay: 1.4s;"></span>
+        <span class="sprinkle yellow" style="top: 2px; left: 40px; animation-delay: 1.5s;"></span>
+        <span class="sprinkle blue" style="top: 5px; left: 70px; animation-delay: 1.6s;"></span>
+      </div>
+
+      <!-- Candles -->
+      <div class="candle" style="left: 25%;">
+        <div class="flame"></div></div>
+      <div class="candle" style="left: 48%;">
+        <div class="flame"></div></div>
+      <div class="candle" style="left: 70%;">
+        <div class="flame"></div></div>
+    </div>
+
+    <!-- Middle Layer -->
+    <div class="cake-layer middle">
+      <div class="icing middle-icing">
+        <span class="sprinkle yellow" style="top: 5px; left: 10px; animation-delay: 1.7s;"></span>
+        <span class="sprinkle pink" style="top: 2px; left: 40px; animation-delay: 1.8s;"></span>
+        <span class="sprinkle blue" style="top: 5px; left: 70px; animation-delay: 1.9s;"></span>
+        <span class="sprinkle green" style="top: 2px; left: 100px; animation-delay: 2s;"></span>
+        <span class="sprinkle red" style="top: 5px; left: 130px; animation-delay: 2.1s;"></span>
+        <span class="sprinkle yellow" style="top: 2px; left: 160px; animation-delay: 2.2s;"></span>
+      </div>
+    </div>
+
+    <!-- Bottom Layer -->
+    <div class="cake-layer bottom">
+      <div class="icing bottom-icing">
+        <span class="sprinkle blue" style="top: 5px; left: 10px; animation-delay: 2.3s;"></span>
+        <span class="sprinkle yellow" style="top: 2px; left: 40px; animation-delay: 2.4s;"></span>
+        <span class="sprinkle green" style="top: 5px; left: 70px; animation-delay: 2.5s;"></span>
+        <span class="sprinkle pink" style="top: 2px; left: 100px; animation-delay: 2.6s;"></span>
+        <span class="sprinkle blue" style="top: 5px; left: 130px; animation-delay: 2.7s;"></span>
+        <span class="sprinkle red" style="top: 2px; left: 160px; animation-delay: 2.8s;"></span>
+        <span class="sprinkle pink" style="top: 5px; left: 190px; animation-delay: 2.6s;"></span>
+        <span class="sprinkle yellow" style="top: 2px; left: 210px; animation-delay: 2.4s;"></span>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="message">🎉 Happy Birthday, Hani! 🎉</h1>
+
+    <div class="confetti">
+
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+    <div class="confetti-piece"></div>
+  </div>
+
+  <div class="tooltip">Click the top layer to blow out the candles!</div>
+  
+  <!-- Audio -->
+  <audio id="blowSound" src="blow.mp3" preload="auto"></audio>
+  <audio id="bgMusic" src="birthday.mp3" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
